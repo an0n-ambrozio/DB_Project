@@ -1,0 +1,110 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  name      String
+  password  String
+  role      String   @default("recruiter") // "admin", "recruiter", "candidate"
+  createdAt DateTime @default(now())
+
+  candidatesCreated Candidate[] @relation("CreatedCandidates")
+  candidateProfile  Candidate?  @relation("UserProfile")
+  activityLogs      ActivityLog[]
+
+  @@map("users")
+}
+
+model Candidate {
+  id             Int      @id @default(autoincrement())
+  name           String
+  email          String   @unique
+  phone          String?
+  role           String
+  status         String   @default("pending") // "qualified", "scheduled", "rejected", "pending"
+  score          Float    @default(0)
+  scoreBreakdown Json?    // Stores { "Skill": 90 }
+  experience     Json?    // Stores array of objects
+  cvFile         String?
+  photoUrl       String?
+  
+  appliedDate    DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  userId         Int?     @unique
+  user           User?    @relation("UserProfile", fields: [userId], references: [id])
+
+  createdById    Int?
+  createdBy      User? @relation("CreatedCandidates", fields: [createdById], references: [id])
+
+  // Relations
+  skills         CandidateSkill[]
+  interviews     Interview[]
+  logs           ActivityLog[]
+  connectedCandidate ConnectedCandidate?
+  rejectedCandidate  RejectedCandidate?
+
+  @@map("candidates")
+}
+
+model CandidateSkill {
+  id          Int       @id @default(autoincrement())
+  candidateId Int
+  skillName   String
+  candidate   Candidate @relation(fields: [candidateId], references: [id], onDelete: Cascade)
+
+  @@unique([candidateId, skillName])
+  @@map("candidate_skills")
+}
+
+model Interview {
+  id          Int      @id @default(autoincrement())
+  candidateId Int
+  date        DateTime
+  status      String   @default("scheduled")
+  notes       String?
+  candidate   Candidate @relation(fields: [candidateId], references: [id], onDelete: Cascade)
+
+  @@map("interviews")
+}
+
+model ActivityLog {
+  id          Int      @id @default(autoincrement())
+  action      String   // "create", "delete", "update"
+  description String
+  candidateId Int?
+  userId      Int?
+  createdAt   DateTime @default(now())
+
+  candidate   Candidate? @relation(fields: [candidateId], references: [id], onDelete: SetNull)
+  user        User?      @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@map("activity_log")
+}
+
+model ConnectedCandidate {
+  id          Int      @id @default(autoincrement())
+  candidateId Int      @unique
+  connectedAt DateTime @default(now())
+  
+  candidate   Candidate @relation(fields: [candidateId], references: [id], onDelete: Cascade)
+
+  @@map("connected_candidates")
+}
+
+model RejectedCandidate {
+  id          Int      @id @default(autoincrement())
+  candidateId Int      @unique
+  rejectedAt  DateTime @default(now())
+  
+  candidate   Candidate @relation(fields: [candidateId], references: [id], onDelete: Cascade)
+
+  @@map("rejected_candidates")
+}

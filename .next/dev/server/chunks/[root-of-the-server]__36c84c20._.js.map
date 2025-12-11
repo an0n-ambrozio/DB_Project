@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///Users/an0n-ambrozio/Documents/an0n-ambrozio/database-design/DB_Project/app/api/auth/logout/route.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\nimport { serialize } from 'cookie';\n\nexport async function POST() {\n    const cookie = serialize('auth_token', '', {\n        httpOnly: true,\n        secure: process.env.NODE_ENV === 'production',\n        expires: new Date(0),\n        path: '/',\n    });\n\n    const response = NextResponse.json({ message: 'Logged out successfully' });\n    response.headers.set('Set-Cookie', cookie);\n\n    return response;\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEO,eAAe;IAClB,MAAM,SAAS,IAAA,sJAAS,EAAC,cAAc,IAAI;QACvC,UAAU;QACV,QAAQ,oDAAyB;QACjC,SAAS,IAAI,KAAK;QAClB,MAAM;IACV;IAEA,MAAM,WAAW,gJAAY,CAAC,IAAI,CAAC;QAAE,SAAS;IAA0B;IACxE,SAAS,OAAO,CAAC,GAAG,CAAC,cAAc;IAEnC,OAAO;AACX"}}]
+}

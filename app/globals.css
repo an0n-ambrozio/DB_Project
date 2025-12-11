@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+  --color-glass: rgba(255, 255, 255, 0.03);
+  --color-glass-border: rgba(255, 255, 255, 0.08);
+  --color-primary: #3b82f6;
+  --color-secondary: #64748b;
+  --color-accent: #8b5cf6;
+
+  --image-glass-gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.01) 100%);
+  --image-main-gradient: radial-gradient(circle at top center, #1e1b4b 0%, #0a0a0a 100%);
+}
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  @apply bg-glass border border-glass-border backdrop-blur-md rounded-xl shadow-lg;
+}
+
+.glass-input {
+  @apply bg-glass border border-glass-border rounded-lg px-4 py-2 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition-colors;
+}
+
+.glass-btn {
+  @apply bg-white/10 hover:bg-white/20 border border-white/5 px-4 py-2 rounded-lg transition-all duration-300 backdrop-blur-sm active:scale-95 text-sm font-medium;
+}
+
+.glass-btn-primary {
+  @apply bg-primary/80 hover:bg-primary text-white shadow-lg shadow-primary/20 hover:shadow-primary/40;
+}
