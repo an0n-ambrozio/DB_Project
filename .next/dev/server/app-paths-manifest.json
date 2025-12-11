@@ -1,15 +1,1 @@
-{
-  "/api/auth/login/route": "app/api/auth/login/route.js",
-  "/api/auth/logout/route": "app/api/auth/logout/route.js",
-  "/api/candidate-profile/route": "app/api/candidate-profile/route.js",
-  "/api/candidates/[id]/route": "app/api/candidates/[id]/route.js",
-  "/api/candidates/route": "app/api/candidates/route.js",
-  "/api/connect/route": "app/api/connect/route.js",
-  "/api/dashboard/route": "app/api/dashboard/route.js",
-  "/candidates/page": "app/candidates/page.js",
-  "/companies/page": "app/companies/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/login/page": "app/login/page.js",
-  "/my-profile/page": "app/my-profile/page.js",
-  "/page": "app/page.js"
-}
+{}
