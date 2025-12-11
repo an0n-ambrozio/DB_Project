@@ -7,6 +7,7 @@ __turbopack_context__.s([
     ()=>CandidateCard
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Eye$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/eye.js [app-client] (ecmascript) <export default as Eye>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/check.js [app-client] (ecmascript) <export default as Check>");
@@ -14,6 +15,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -45,26 +47,28 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 z-0",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         src: photoUrl || `https://ui-avatars.com/api/?name=${name}&background=random&color=fff&size=512`,
                         alt: name,
+                        fill: true,
+                        unoptimized: true,
                         className: "w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-110"
                     }, void 0, false, {
                         fileName: "[project]/components/CandidateCard.tsx",
-                        lineNumber: 36,
+                        lineNumber: 38,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90"
                     }, void 0, false, {
                         fileName: "[project]/components/CandidateCard.tsx",
-                        lineNumber: 41,
+                        lineNumber: 45,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/CandidateCard.tsx",
-                lineNumber: 35,
+                lineNumber: 37,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -76,17 +80,17 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
                         children: score
                     }, void 0, false, {
                         fileName: "[project]/components/CandidateCard.tsx",
-                        lineNumber: 47,
+                        lineNumber: 51,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CandidateCard.tsx",
-                    lineNumber: 46,
+                    lineNumber: 50,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CandidateCard.tsx",
-                lineNumber: 45,
+                lineNumber: 49,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -96,12 +100,12 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
                     title: status
                 }, void 0, false, {
                     fileName: "[project]/components/CandidateCard.tsx",
-                    lineNumber: 53,
+                    lineNumber: 57,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CandidateCard.tsx",
-                lineNumber: 52,
+                lineNumber: 56,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -114,7 +118,7 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
                                 children: name
                             }, void 0, false, {
                                 fileName: "[project]/components/CandidateCard.tsx",
-                                lineNumber: 65,
+                                lineNumber: 69,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -122,13 +126,13 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
                                 children: role
                             }, void 0, false, {
                                 fileName: "[project]/components/CandidateCard.tsx",
-                                lineNumber: 66,
+                                lineNumber: 70,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CandidateCard.tsx",
-                        lineNumber: 64,
+                        lineNumber: 68,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -145,12 +149,12 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
                                     size: 18
                                 }, void 0, false, {
                                     fileName: "[project]/components/CandidateCard.tsx",
-                                    lineNumber: 76,
+                                    lineNumber: 80,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/CandidateCard.tsx",
-                                lineNumber: 71,
+                                lineNumber: 75,
                                 columnNumber: 21
                             }, this),
                             status !== 'scheduled' && status !== 'rejected' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -168,14 +172,14 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
                                                 className: "group-hover/btn:scale-110 transition-transform"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CandidateCard.tsx",
-                                                lineNumber: 85,
+                                                lineNumber: 89,
                                                 columnNumber: 33
                                             }, this),
                                             "Connect"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CandidateCard.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 85,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -189,18 +193,18 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
                                             size: 18
                                         }, void 0, false, {
                                             fileName: "[project]/components/CandidateCard.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 97,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/CandidateCard.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 92,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CandidateCard.tsx",
-                                lineNumber: 80,
+                                lineNumber: 84,
                                 columnNumber: 25
                             }, this),
                             status === 'scheduled' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -212,7 +216,7 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
                                 children: "Unschedule"
                             }, void 0, false, {
                                 fileName: "[project]/components/CandidateCard.tsx",
-                                lineNumber: 99,
+                                lineNumber: 103,
                                 columnNumber: 25
                             }, this),
                             status === 'rejected' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -224,7 +228,7 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
                                 children: "Reconsider"
                             }, void 0, false, {
                                 fileName: "[project]/components/CandidateCard.tsx",
-                                lineNumber: 108,
+                                lineNumber: 112,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -238,30 +242,30 @@ function CandidateCard({ id, name, role, status, score, photoUrl, onEdit, onDele
                                     size: 16
                                 }, void 0, false, {
                                     fileName: "[project]/components/CandidateCard.tsx",
-                                    lineNumber: 123,
+                                    lineNumber: 127,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/CandidateCard.tsx",
-                                lineNumber: 118,
+                                lineNumber: 122,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CandidateCard.tsx",
-                        lineNumber: 70,
+                        lineNumber: 74,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/CandidateCard.tsx",
-                lineNumber: 62,
+                lineNumber: 66,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/CandidateCard.tsx",
-        lineNumber: 26,
+        lineNumber: 28,
         columnNumber: 9
     }, this);
 }
@@ -358,7 +362,7 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                 onClick: onClose
             }, void 0, false, {
                 fileName: "[project]/components/AddCandidateModal.tsx",
-                lineNumber: 42,
+                lineNumber: 51,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -396,12 +400,12 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/AddCandidateModal.tsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 75,
                                                     columnNumber: 56
                                                 }, this) : s.id
                                             }, void 0, false, {
                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 71,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -409,26 +413,26 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                 children: s.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                lineNumber: 68,
+                                                lineNumber: 77,
                                                 columnNumber: 37
                                             }, this),
                                             i < steps.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "w-8 h-[1px] bg-white/10 mx-2 hidden sm:block"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                lineNumber: 71,
+                                                lineNumber: 80,
                                                 columnNumber: 62
                                             }, this)
                                         ]
                                     }, s.id, true, {
                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 70,
                                         columnNumber: 33
                                     }, this);
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                lineNumber: 56,
+                                lineNumber: 65,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -438,18 +442,18 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                     size: 20
                                 }, void 0, false, {
                                     fileName: "[project]/components/AddCandidateModal.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 86,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                lineNumber: 76,
+                                lineNumber: 85,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/AddCandidateModal.tsx",
-                        lineNumber: 55,
+                        lineNumber: 64,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -483,14 +487,14 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                                 size: 14
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                                lineNumber: 92,
+                                                                lineNumber: 101,
                                                                 columnNumber: 41
                                                             }, this),
                                                             " Full Name"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                                        lineNumber: 91,
+                                                        lineNumber: 100,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -504,13 +508,13 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                         autoFocus: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                                        lineNumber: 94,
+                                                        lineNumber: 103,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                lineNumber: 90,
+                                                lineNumber: 99,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -523,14 +527,14 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                                 size: 14
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                                lineNumber: 104,
+                                                                lineNumber: 113,
                                                                 columnNumber: 41
                                                             }, this),
                                                             " Email Address"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                                        lineNumber: 103,
+                                                        lineNumber: 112,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -543,13 +547,13 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                         placeholder: "alex@example.com"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 115,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 111,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -562,14 +566,14 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                                 size: 14
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                                lineNumber: 115,
+                                                                lineNumber: 124,
                                                                 columnNumber: 41
                                                             }, this),
                                                             " Photo URL (Optional)"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                                        lineNumber: 114,
+                                                        lineNumber: 123,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -582,19 +586,19 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                         placeholder: "https://..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                                        lineNumber: 117,
+                                                        lineNumber: 126,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                lineNumber: 113,
+                                                lineNumber: 122,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, "step1", true, {
                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 94,
                                         columnNumber: 29
                                     }, this),
                                     step === 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -622,14 +626,14 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                                 size: 14
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                                lineNumber: 135,
+                                                                lineNumber: 144,
                                                                 columnNumber: 41
                                                             }, this),
                                                             " Target Role"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                                        lineNumber: 134,
+                                                        lineNumber: 143,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -643,13 +647,13 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                         autoFocus: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                                        lineNumber: 137,
+                                                        lineNumber: 146,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                lineNumber: 133,
+                                                lineNumber: 142,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -662,14 +666,14 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                                 size: 14
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                                lineNumber: 147,
+                                                                lineNumber: 156,
                                                                 columnNumber: 41
                                                             }, this),
                                                             " Initial Fit Score"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                                        lineNumber: 146,
+                                                        lineNumber: 155,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -687,7 +691,7 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                                     })
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                                lineNumber: 150,
+                                                                lineNumber: 159,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -698,31 +702,31 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                                lineNumber: 157,
+                                                                lineNumber: 166,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                                        lineNumber: 149,
+                                                        lineNumber: 158,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 154,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, "step2", true, {
                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                        lineNumber: 128,
+                                        lineNumber: 137,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                lineNumber: 83,
+                                lineNumber: 92,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -734,11 +738,11 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                         children: "Back"
                                     }, void 0, false, {
                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                        lineNumber: 169,
+                                        lineNumber: 178,
                                         columnNumber: 29
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                        lineNumber: 172,
+                                        lineNumber: 181,
                                         columnNumber: 29
                                     }, this),
                                     step < 2 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -750,13 +754,13 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                 size: 16
                                             }, void 0, false, {
                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                lineNumber: 176,
+                                                lineNumber: 185,
                                                 columnNumber: 42
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                        lineNumber: 175,
+                                        lineNumber: 184,
                                         columnNumber: 29
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: handleSubmit,
@@ -769,37 +773,37 @@ function AddCandidateModal({ isOpen, onClose, onSave }) {
                                                 size: 16
                                             }, void 0, false, {
                                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                                lineNumber: 180,
+                                                lineNumber: 189,
                                                 columnNumber: 75
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/AddCandidateModal.tsx",
-                                        lineNumber: 179,
+                                        lineNumber: 188,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/AddCandidateModal.tsx",
-                                lineNumber: 167,
+                                lineNumber: 176,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/AddCandidateModal.tsx",
-                        lineNumber: 82,
+                        lineNumber: 91,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/AddCandidateModal.tsx",
-                lineNumber: 48,
+                lineNumber: 57,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/AddCandidateModal.tsx",
-        lineNumber: 41,
+        lineNumber: 50,
         columnNumber: 9
     }, this);
 }
@@ -921,7 +925,7 @@ function CandidatesPage() {
                         children: "Talent Pool"
                     }, void 0, false, {
                         fileName: "[project]/app/candidates/page.tsx",
-                        lineNumber: 74,
+                        lineNumber: 84,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -929,13 +933,13 @@ function CandidatesPage() {
                         children: "Manage and track your top candidates"
                     }, void 0, false, {
                         fileName: "[project]/app/candidates/page.tsx",
-                        lineNumber: 75,
+                        lineNumber: 85,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/candidates/page.tsx",
-                lineNumber: 73,
+                lineNumber: 83,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -952,7 +956,7 @@ function CandidatesPage() {
                                         size: 16
                                     }, void 0, false, {
                                         fileName: "[project]/app/candidates/page.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 92,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -963,20 +967,20 @@ function CandidatesPage() {
                                         onChange: (e)=>setSearchQuery(e.target.value)
                                     }, void 0, false, {
                                         fileName: "[project]/app/candidates/page.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 93,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/candidates/page.tsx",
-                                lineNumber: 81,
+                                lineNumber: 91,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "h-6 w-[1px] bg-white/10 mx-1"
                             }, void 0, false, {
                                 fileName: "[project]/app/candidates/page.tsx",
-                                lineNumber: 91,
+                                lineNumber: 101,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -987,18 +991,18 @@ function CandidatesPage() {
                                         children: s
                                     }, s, false, {
                                         fileName: "[project]/app/candidates/page.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 104,
                                         columnNumber: 29
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/candidates/page.tsx",
-                                lineNumber: 92,
+                                lineNumber: 102,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/candidates/page.tsx",
-                        lineNumber: 80,
+                        lineNumber: 90,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1009,20 +1013,20 @@ function CandidatesPage() {
                                 size: 18
                             }, void 0, false, {
                                 fileName: "[project]/app/candidates/page.tsx",
-                                lineNumber: 109,
+                                lineNumber: 119,
                                 columnNumber: 21
                             }, this),
                             " Add Candidate"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/candidates/page.tsx",
-                        lineNumber: 105,
+                        lineNumber: 115,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/candidates/page.tsx",
-                lineNumber: 78,
+                lineNumber: 88,
                 columnNumber: 13
             }, this),
             isLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1034,7 +1038,7 @@ function CandidatesPage() {
                             className: "w-10 h-10 bg-white/10 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/app/candidates/page.tsx",
-                            lineNumber: 117,
+                            lineNumber: 127,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1042,18 +1046,18 @@ function CandidatesPage() {
                             children: "Loading talent..."
                         }, void 0, false, {
                             fileName: "[project]/app/candidates/page.tsx",
-                            lineNumber: 118,
+                            lineNumber: 128,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/candidates/page.tsx",
-                    lineNumber: 116,
+                    lineNumber: 126,
                     columnNumber: 21
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/candidates/page.tsx",
-                lineNumber: 115,
+                lineNumber: 125,
                 columnNumber: 17
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                 layout: true,
@@ -1094,12 +1098,12 @@ function CandidatesPage() {
                                 }
                             }, c.id, false, {
                                 fileName: "[project]/app/candidates/page.tsx",
-                                lineNumber: 125,
+                                lineNumber: 135,
                                 columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/candidates/page.tsx",
-                        lineNumber: 123,
+                        lineNumber: 133,
                         columnNumber: 21
                     }, this),
                     filteredCandidates.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1110,7 +1114,7 @@ function CandidatesPage() {
                                 className: "mb-4 opacity-20"
                             }, void 0, false, {
                                 fileName: "[project]/app/candidates/page.tsx",
-                                lineNumber: 157,
+                                lineNumber: 167,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1118,7 +1122,7 @@ function CandidatesPage() {
                                 children: "No candidates found."
                             }, void 0, false, {
                                 fileName: "[project]/app/candidates/page.tsx",
-                                lineNumber: 158,
+                                lineNumber: 168,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1130,19 +1134,19 @@ function CandidatesPage() {
                                 children: "Clear Filters"
                             }, void 0, false, {
                                 fileName: "[project]/app/candidates/page.tsx",
-                                lineNumber: 159,
+                                lineNumber: 169,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/candidates/page.tsx",
-                        lineNumber: 156,
+                        lineNumber: 166,
                         columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/candidates/page.tsx",
-                lineNumber: 122,
+                lineNumber: 132,
                 columnNumber: 17
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AddCandidateModal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1151,13 +1155,13 @@ function CandidatesPage() {
                 onSave: handleCreate
             }, void 0, false, {
                 fileName: "[project]/app/candidates/page.tsx",
-                lineNumber: 165,
+                lineNumber: 175,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/candidates/page.tsx",
-        lineNumber: 71,
+        lineNumber: 81,
         columnNumber: 9
     }, this);
 }
