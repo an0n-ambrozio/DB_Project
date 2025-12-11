@@ -33,7 +33,7 @@ This guide details how to deploy **TALENTHUB** and its MySQL database entirely o
 | Variable Name | Value |
 | :--- | :--- |
 | `DATABASE_URL` | Paste the `DATABASE_URL` from the MySQL service (Step 2.6). |
-| `JWT_SECRET` | A long, random string (e.g., `my-super-secure-secret-key-123`). |
+| `JWT_SECRET` | A long, random string. You can generate one by running `openssl rand -hex 32` in your terminal. |
 
 ## 5. Configure Build & Migrations (Crucial Step)
 
